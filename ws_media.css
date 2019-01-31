@@ -14,11 +14,11 @@
 */
 
 /* VideoPlayer Styles */
-
 video {
     display: block;
     margin: 5px auto 5px auto;
     width: 90%;
+    /* Theses lines of code position the video correctly in the webpage.  */
 }
 
 @media only screen and (min-width: 521px) {
@@ -26,13 +26,14 @@ video {
         width: 360px;
         float: right;
         margin-right: 10px;
+        /* These lines of code make the text of the webpage go around the the video .  */
     }
 }
 
 /* Track Styles */
-
 ::cue {
     background: rgba(255, 255, 255 0.8);
     color: rgb(221, 128, 160);
     font: 1.3em sans-serif;
+    /* These lines of code add a style to the cations of the video for it makes the background of the caption have a pink color and also changes it font. */
 }
